@@ -22,7 +22,7 @@ module.exports = {
         jest: true,
     },
     parserOptions: {
-        project: "./tsconfig.json",
+        project: "./tsconfig-eslint.json",
     },
     rules: {
         // Too restrictive, writing ugly code to defend against a very unlikely scenario: https://eslint.org/docs/rules/no-prototype-builtins
